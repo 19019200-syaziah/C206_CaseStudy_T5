@@ -1,4 +1,4 @@
-// Create by Ling Ying.
+// Create by Ling Ying
 import java.util.ArrayList;
 
 public class C206_CaseStudy {
