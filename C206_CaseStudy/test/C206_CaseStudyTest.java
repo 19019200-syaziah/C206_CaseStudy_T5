@@ -1,4 +1,4 @@
-// Create by Ling Ying
+// Create by Ling Ying.
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
