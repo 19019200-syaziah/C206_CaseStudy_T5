@@ -1,4 +1,4 @@
-
+// Create by Ling Ying
 public class MoneyHolding {
 	private String iso;
 	private double holdingAmt;
