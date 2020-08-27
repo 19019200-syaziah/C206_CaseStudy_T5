@@ -1,7 +1,7 @@
-import java.time.LocalDateTime;
+
 
 public class Transaction {
-	private LocalDateTime txnDate;
+	private String txnDate;
 	private String type;
 	private String ccyIn;
 	private double amtIn;
@@ -9,7 +9,7 @@ public class Transaction {
 	private double amtOut;
 	private double rate;
 	
-	public Transaction(LocalDateTime txnDate, String type, String ccyIn, double amtIn, String ccyOut, double amtOut,
+	public Transaction(String txnDate, String type, String ccyIn, double amtIn, String ccyOut, double amtOut,
 			double rate) {
 		super();
 		this.txnDate = txnDate;
@@ -21,7 +21,7 @@ public class Transaction {
 		this.rate = rate;
 	}
 	
-	public LocalDateTime getTxnDate() {
+	public String getTxnDate() {
 		return txnDate;
 	}
 	public String getType() {
